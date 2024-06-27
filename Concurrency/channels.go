@@ -1,4 +1,7 @@
 // go run .\channels.go
+
+// Channels in Go are a way for goroutines to communicate with each other and synchronize their execution. 
+// Think of a channel as a pipe through which you can send and receive data.
 package main
 
 import (

@@ -1,3 +1,8 @@
+// sync.Once type is used to ensure that a piece of code is executed only once, 
+// no matter how many times it is called from different goroutines. 
+// This is particularly useful for initialization code, 
+// such as setting up a singleton or initializing resources.
+
 package main
 
 import (

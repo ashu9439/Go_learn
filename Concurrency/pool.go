@@ -1,3 +1,8 @@
+// a pool is a collection of reusable resources. 
+// Pools are useful for managing resources that are expensive to allocate and release, 
+// such as network connections or large data structures. 
+// The sync package provides a sync.Pool type to create and manage pools of objects.
+
 package main
 
 import (

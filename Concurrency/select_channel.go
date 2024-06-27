@@ -1,5 +1,9 @@
 // select any one channel
 // go run .\multiple_input_tochannel_2.go
+
+// the select statement is used to handle multiple channel operations. 
+// It allows a goroutine to wait on multiple communication operations and proceed with the one that is ready first. This is useful for implementing timeout mechanisms,
+//  handling multiple channel inputs, or multiplexing channels.
 package main
 
 import (

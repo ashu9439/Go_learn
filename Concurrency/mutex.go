@@ -1,6 +1,11 @@
 //go run .\waitGroup.go
 // wait till other process release the lock and proceed only when aquair the lock
 
+
+// a mutex (mutual exclusion lock) 
+// is a synchronization primitive used to protect shared data from being accessed concurrently by multiple goroutines.
+//  It ensures that only one goroutine can access the critical section of code at a time, preventing race conditions.
+
 package main
 
 import (
