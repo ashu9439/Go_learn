@@ -1,6 +1,14 @@
-// go mod init example.com/myproject
+// go mod init github.com/ashu9439/Go_learn/tree/main/Api/gorillaMusk
 //  go get -u github.com/gorilla/mux
 // go run .
+
+//create executable file and run it
+/*
+```
+	go build -o myapp
+	./myapp
+```
+*/
 
 package main
 
